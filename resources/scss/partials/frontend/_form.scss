@@ -1,0 +1,21 @@
+.that-was-helpful__form {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.that-was-helpful__submit {
+
+	&,
+	&:hover {
+		margin-right: .5em;
+		background: #666;
+	}
+
+	&.active {
+
+		&,
+		&:hover {
+			background: #3c3;
+		}
+	}
+}

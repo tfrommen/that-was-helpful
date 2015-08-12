@@ -1,0 +1,12 @@
+// Current version (YYYYMMDD).
+// Used as cache buster for images.
+$version: "20150808";
+
+// Base ************************************************************************
+
+@import "partials/base";
+
+// Partials ********************************************************************
+
+@import "partials/frontend/form";
+@import "partials/frontend/votes";
