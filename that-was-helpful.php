@@ -1,11 +1,11 @@
 <?php # -*- coding: utf-8 -*-
 /**
  * Plugin Name: That Was Helpful
- * Plugin URI:  https://github.com/tfrommen/that-was-helpful
+ * Plugin URI:  https://wordpress.org/plugins/that-was-helpful/
  * Description: Find out what posts logged-in users found helpful.
  * Author:      Thorsten Frommen
  * Author URI:  http://ipm-frommen.de/wordpress
- * Version:     1.0.0
+ * Version:     1.0.1
  * Text Domain: that-was-helpful
  * Domain Path: /languages
  * License:     GPLv3

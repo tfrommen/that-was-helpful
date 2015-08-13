@@ -1,6 +1,6 @@
 {
 	"name": "that-was-helpful",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Find out what posts logged-in users found helpful.",
 	"bugs": "https://github.com/tfrommen/that-was-helpful/issues",
 	"license": "GPL-3.0",
