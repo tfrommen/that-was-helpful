@@ -3,7 +3,7 @@ Contributors: ipm-frommen
 Donate link: http://ipm-frommen.de/wordpress
 Tags: vote, posts, helpful, quality
 Requires at least: 3.5.0
-Tested up to: 4.2.4
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -26,7 +26,7 @@ What this plugin is all about is providing a means to mark individual posts help
 
 **Actions**
 
-In case you want to show the form depending on some (complicated) condition (and not always), simply wrap `do_action( 'that_was_helpful', $optional_post_id )` in the condition, and put it in you desired template file(s). If you provide an existing post ID as parameter, the according post's votes are displayed. Otherwise the current post is used.
+In case you want to show the form depending on some (complicated) condition (and not always), simply wrap `do_action( 'that_was_helpful', $optional_post_id )` in the condition, and put it in your desired template file(s). If you provide an existing post ID as parameter, the according post's votes are displayed. Otherwise the current post is used.
 
 **Filters**
 

@@ -23,7 +23,7 @@ On the plugin's _That Was Helpful_ settings page, you can have the form be autom
 
 ### Actions
 
-In case you want to show the form depending on some (complicated) condition (and not always), simply wrap `do_action( 'that_was_helpful', $optional_post_id )` in the condition, and put it in you desired template file(s). If you provide an existing post ID as parameter, the according post's votes are displayed. Otherwise the current post is used.
+In case you want to show the form depending on some (complicated) condition (and not always), simply wrap `do_action( 'that_was_helpful', $optional_post_id )` in the condition, and put it in your desired template file(s). If you provide an existing post ID as parameter, the according post's votes are displayed. Otherwise the current post is used.
 
 ### Filters
 
