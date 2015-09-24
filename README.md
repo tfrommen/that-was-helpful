@@ -1,6 +1,11 @@
 # That Was Helpful
 
-Have you ever wanted to know about the quality your posts? At least a little bit?
+[![Latest Stable Version](https://poser.pugx.org/tfrommen/that-was-helpful/v/stable)](https://packagist.org/packages/tfrommen/that-was-helpful)
+[![Project Status](http://opensource.box.com/badges/active.svg)](http://opensource.box.com/badges)
+[![Build Status](https://travis-ci.org/tfrommen/that-was-helpful.svg?branch=master)](http://travis-ci.org/tfrommen/that-was-helpful)
+[![License](https://poser.pugx.org/tfrommen/that-was-helpful/license)](https://packagist.org/packages/tfrommen/that-was-helpful)
+
+Have you ever wanted to know about the quality of your posts? At least a little bit?
 
 This is exactly when _That Was Helpful_ kicks in.
 
@@ -8,7 +13,7 @@ This simple plugin lets you track how many logged-in users found individual post
 
 ## Installation
 
-1. [Download ZIP](https://github.com/tfrommen/that-was-helpful/archive/master.zip).
+1. [Download ZIP](https://downloads.wordpress.org/plugin/that-was-helpful.zip).
 1. Upload contents to the `/wp-content/plugins` directory on your web server.
 1. Activate the plugin through the _Plugins_ menu in WordPress.
 1. Use the _That Was Helpful_ form either by defining _Automatic Appending_ to content/excerpt on the according _That Was Helpful_ settings page, or by using `do_action( 'that_was_helpful', $optional_post_id )` somewhere in your template files.
@@ -50,6 +55,14 @@ add_filter( 'that_was_helpful_capability', function() {
 If you have a feature request, or if you have developed the feature already, please feel free to use the Issues and/or Pull Requests section.
 
 Of course, you can also provide me with translations if you would like to use the plugin in another not yet included language.
+
+## Screenshots
+
+![Settings page](assets/screenshot-1.png)  
+**Settings page** - Here you can manage your settings (i.e., automatically append to content and/or excerpt).
+
+![Frontend](assets/screenshot-2.png)  
+**Frontend** - Frontend view for a logged-in user who marked the according post helpful.
 
 ## Changelog
 
