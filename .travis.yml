@@ -21,6 +21,6 @@ before_script:
   - npm install -g jshint
 
 script:
-  - find . \( -name '*.php' \) -exec php -lf {} \;
-  - jshint .
+  - find src \( -name '*.php' \) -exec php -lf {} \;
+  - jshint src
   - phpunit
