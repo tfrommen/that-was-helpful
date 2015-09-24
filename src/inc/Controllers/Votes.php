@@ -40,8 +40,7 @@ class Votes {
 	}
 
 	/**
-	 * According to the stored settings, maybe adds filters for appending the votes's HTML to the content and/or
-	 * excerpt.
+	 * According to the stored settings, maybe adds filters for appending the votes HTML to the content and/or excerpt.
 	 *
 	 * @return void
 	 */
