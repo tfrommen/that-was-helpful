@@ -1,0 +1,19 @@
+{
+	"bitwise": true,
+	"curly": true,
+	"eqeqeq": true,
+	"forin": true,
+	"latedef": true,
+	"noarg": true,
+	"noempty": true,
+	"nonbsp": true,
+	"nonew": true,
+	"singleGroups": true,
+	"strict": true,
+	"undef": true,
+	"unused": true,
+	"globals": {
+		"browser": true,
+		"jquery": true
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"name": "tfrommen/that-was-helpful",
+	"description": "Find out what posts logged-in users found helpful.",
+	"type": "wordpress-plugin",
+	"keywords": [
+		"helpful",
+		"posts",
+		"quality",
+		"vote"
+	],
+	"homepage": "https://github.com/tfrommen/that-was-helpful",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Thorsten Frommen",
+			"email": "info@tfrommen.de",
+			"homepage": "http://tfrommen.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tfrommen/that-was-helpful/issues",
+		"forum": "https://wordpress.org/support/plugin/that-was-helpful",
+		"source": "https://github.com/tfrommen/that-was-helpful"
+	},
+	"require": {
+		"php": ">=5.2.4",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"php": ">=5.3.3",
+		"10up/wp_mock": "dev-master",
+		"mockery/mockery": "~0.9.4",
+		"phpunit/phpunit": "~4.0"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.2.x-dev"
+		}
+	}
+}
