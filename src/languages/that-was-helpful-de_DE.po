@@ -1,0 +1,61 @@
+# Translation of That Was Helpful in German
+# This file is distributed under the same license as the That Was Helpful package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-24 11:14:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: That Was Helpful\n"
+
+#: inc/Views/SettingsPage.php:79
+msgid "Automatic Appending"
+msgstr "Automatisches Hinzufügen"
+
+#. translators: %s: Priority input element HTML
+#: inc/Views/SettingsPage.php:92
+msgid "Automatically append to content with priority %s"
+msgstr "Automatisch zum Inhalt mit Priorität %s hinzufügen"
+
+#. translators: %s: Priority input element HTML
+#: inc/Views/SettingsPage.php:118
+msgid "Automatically append to excerpt with priority %s"
+msgstr "Automatisch zum Auszug mit Priorität %s hinzufügen"
+
+#. Description of the plugin/theme
+msgid "Find out what posts logged-in users found helpful."
+msgstr "Finde heraus, welche Beiträge angemeldete Besucher hilfreich fanden."
+
+#: inc/Models/Post.php:159 inc/Views/Votes.php:111
+msgctxt "Vote description"
+msgid "%d visitor found that helpful."
+msgid_plural "%d visitors found that helpful."
+msgstr[0] "%d Besucher fand das hilfreich."
+msgstr[1] "%d Besucher fanden das hilfreich."
+
+#: inc/Models/Post.php:172
+msgctxt "Vote button title"
+msgid "That was helpful"
+msgstr "Das war hilfreich"
+
+#: inc/Models/Post.php:173
+msgctxt "Vote button title"
+msgid "Retract vote"
+msgstr "Bewertung zurückziehen"
+
+#: inc/Views/SettingsPage.php:34
+msgctxt "Settings page title"
+msgid "That Was Helpful"
+msgstr "Das war hilfreich"
+
+#: inc/Views/SettingsPage.php:46
+msgctxt "Menu item title"
+msgid "That Was Helpful"
+msgstr "Das war hilfreich"
+
+#: inc/Views/Votes.php:105
+msgctxt "Vote button text"
+msgid "That was helpful"
+msgstr "Das war hilfreich"
